@@ -1,0 +1,9 @@
+api_version = "2025-01"
+
+[[extensions]]
+type = "theme"
+name = "WebP Converter"
+handle = "webp-converter"
+uid = "0637491f-8ac4-be50-071a-244a5d16e75a43c69cee"
+
+[extensions.capabilities]
