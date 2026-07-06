@@ -2,7 +2,7 @@
 
 client_id = "a8064cf33159ce6aac988a496cd799b0"
 name = "webp-converter"
-application_url = "https://example.com"
+application_url = "https://webp-converter-1hz3.onrender.com"
 embedded = true
 
 [build]
@@ -25,4 +25,6 @@ api_version = "2026-07"
 scopes = "write_products,write_files,write_metaobjects,write_metaobject_definitions"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [
+  "https://webp-converter-1hz3.onrender.com/auth/callback"
+]
